@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adv. John Doe — Counsel</title>
+  <meta name="description" content="Contracts, disputes, property due diligence, filings and appearances. Pune & Mumbai, PAN-India e-filings."/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      /* New palette (no blue) */
+      --brand:#991B1B;   /* Crimson */
+      --ink:#111827;     /* Charcoal */
+      --muted:#6B7280;   /* Slate-500 */
+      --line:#E5E7EB;    /* Divider */
+      --paper:#FAFAFA;   /* Subtle background */
+    }
+    .brand{color:var(--brand)} .bg-brand{background:var(--brand)} .ring-brand{--tw-ring-color:var(--brand)}
+    .divider{border-color:var(--line)}
+    .paper{background:var(--paper)}
+    .lift{transition:transform .2s ease, box-shadow .2s ease}
+    .lift:hover{transform:translateY(-2px); box-shadow:0 12px 28px rgba(17,24,39,.10)}
+    .sidebar{box-shadow: inset -1px 0 0 var(--line)}
+    .pill{border:1px solid var(--line); border-radius:9999px; padding:.375rem .75rem}
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <!-- Shell -->
+  <div class="min-h-screen md:grid md:grid-cols-[280px_1fr]">
+    <!-- Sidebar (mobile becomes top bar) -->
+    <aside class="sidebar sticky top-0 z-40 bg-white border-b divider md:border-b-0 md:h-screen">
+      <div class="max-w-7xl mx-auto md:mx-0 px-4 sm:px-6 md:px-5">
+        <div class="h-16 md:h-24 flex items-center justify-between md:block">
+          <a href="#home" class="flex items-center gap-3">
+            <span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-brand text-white font-semibold tracking-widest">PK</span>
+            <div class="leading-tight md:hidden">
+              <div class="font-semibold text-base text-slate-900">Adv. John Doe</div>
+              <div class="text-xs text-slate-500">Counsel • Pune</div>
+            </div>
+          </a>
+          <!-- Desktop identity -->
+          <div class="hidden md:block mt-6">
+            <div class="font-semibold text-lg text-slate-900">Adv. John Doe</div>
+            <div class="text-xs text-slate-500 mt-0.5">Commercial • Disputes • Property</div>
+          </div>
+
+          <!-- Nav -->
+          <nav class="hidden md:block mt-8 space-y-2 text-sm">
+            <a href="#home" class="block px-3 py-2 rounded-lg hover:bg-slate-50">Overview</a>
+            <a href="#matters" class="block px-3 py-2 rounded-lg hover:bg-slate-50">Matters & Outcomes</a>
+            <a href="#engagement" class="block px-3 py-2 rounded-lg hover:bg-slate-50">Engagement Models</a>
+            <a href="#credentials" class="block px-3 py-2 rounded-lg hover:bg-slate-50">Credentials</a>
+            <a href="#insights" class="block px-3 py-2 rounded-lg hover:bg-slate-50">Insights</a>
+            <a href="#contact" class="block px-3 py-2 rounded-lg hover:bg-slate-50">Contact</a>
+          </nav>
+
+          <!-- Desktop call -->
+          <div class="hidden md:block mt-8">
+            <a href="tel:+919800098000" class="inline-flex items-center gap-2 bg-brand text-white px-4 py-2 rounded-lg lift">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h1.5A2.25 2.25 0 0 0 21 19.5v-1.2a1.05 1.05 0 0 0-.933-1.044l-3.744-.468a1.125 1.125 0 0 0-1.063.45l-.96 1.28a.75.75 0 0 1-.9.255 12.035 12.035 0 0 1-6.672-6.672.75.75 0 0 1 .255-.9l1.28-.96a1.125 1.125 0 0 0 .45-1.063l-.468-3.744A1.05 1.05 0 0 0 8.7 2.25H7.5A2.25 2.25 0 0 0 5.25 4.5v1.5Z"/></svg>
+              Call
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile bottom nav -->
+      <div class="md:hidden fixed bottom-0 inset-x-0 border-t divider bg-white">
+        <div class="grid grid-cols-5 text-xs">
+          <a href="#home" class="py-3 text-center">Home</a>
+          <a href="#matters" class="py-3 text-center">Matters</a>
+          <a href="#engagement" class="py-3 text-center">Engage</a>
+          <a href="#credentials" class="py-3 text-center">Creds</a>
+          <a href="#contact" class="py-3 text-center">Contact</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main>
+      <!-- Overview / Hero -->
+      <section id="home" class="px-4 sm:px-6 lg:px-10 py-10 sm:py-14">
+        <div class="max-w-5xl">
+          <span class="pill text-[11px] uppercase tracking-widest text-slate-700 bg-white">Contracts • Disputes • Property</span>
+          <h1 class="mt-4 text-3xl sm:text-5xl font-semibold text-slate-900 leading-tight">
+            Clear documentation. Firm representation. <span class="brand">Decisive outcomes.</span>
+          </h1>
+          <p class="mt-4 text-slate-600 max-w-2xl">
+            Advisory, drafting, filings, and appearances across Pune & Mumbai with PAN-India e-filings. Timelines you can plan around, fees you can understand.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#contact" class="inline-flex items-center gap-2 bg-brand text-white px-5 py-3 rounded-lg lift">Request a Consultation</a>
+            <a href="#matters" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border divider bg-white lift">See Matters</a>
+          </div>
+
+          <!-- Quick stats -->
+          <div class="mt-8 grid grid-cols-3 gap-3">
+            <div class="paper rounded-lg p-4 text-center border divider">
+              <div class="text-xl font-semibold text-slate-900">24–48h</div>
+              <div class="text-xs text-slate-600">Turnaround on clear notices</div>
+            </div>
+            <div class="paper rounded-lg p-4 text-center border divider">
+              <div class="text-xl font-semibold text-slate-900">PAN-India</div>
+              <div class="text-xs text-slate-600">e-filings & advisory</div>
+            </div>
+            <div class="paper rounded-lg p-4 text-center border divider">
+              <div class="text-xl font-semibold text-slate-900">Transparent</div>
+              <div class="text-xs text-slate-600">Stage-wise fees</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Matters & Outcomes (editorial rows) -->
+      <section id="matters" class="px-4 sm:px-6 lg:px-10 py-12 border-t divider">
+        <div class="max-w-5xl">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-slate-900">Matters & Outcomes</h2>
+          <div class="mt-8 space-y-8">
+            <article class="grid sm:grid-cols-3 gap-4">
+              <header class="sm:col-span-1">
+                <h3 class="font-semibold text-slate-900">Commercial Contracts</h3>
+                <p class="text-xs text-slate-500 mt-1">MSA • NDA • SaaS • Vendor</p>
+              </header>
+              <div class="sm:col-span-2 text-sm text-slate-700">
+                Clear risk allocation and practical clauses. Fast turnarounds for founders and SMBs.
+              </div>
+            </article>
+            <article class="grid sm:grid-cols-3 gap-4">
+              <header class="sm:col-span-1">
+                <h3 class="font-semibold text-slate-900">138 NI Act</h3>
+                <p class="text-xs text-slate-500 mt-1">Cheque dishonour</p>
+              </header>
+              <div class="sm:col-span-2 text-sm text-slate-700">
+                Statutory notices, evidence strategy, and complaints with disciplined timelines.
+              </div>
+            </article>
+            <article class="grid sm:grid-cols-3 gap-4">
+              <header class="sm:col-span-1">
+                <h3 class="font-semibold text-slate-900">Property & RERA</h3>
+                <p class="text-xs text-slate-500 mt-1">Due diligence • Agreements • Disputes</p>
+              </header>
+              <div class="sm:col-span-2 text-sm text-slate-700">
+                Title checks, agreement vetting, and builder-buyer matters with pragmatic remedies.
+              </div>
+            </article>
+            <article class="grid sm:grid-cols-3 gap-4">
+              <header class="sm:col-span-1">
+                <h3 class="font-semibold text-slate-900">Civil Suits</h3>
+                <p class="text-xs text-slate-500 mt-1">Recovery • Injunction • Specific performance</p>
+              </header>
+              <div class="sm:col-span-2 text-sm text-slate-700">
+                Suit strategy focused on evidence, forum, and cost-time balance.
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Engagement models (cards in a band) -->
+      <section id="engagement" class="px-4 sm:px-6 lg:px-10 py-12 border-t divider">
+        <div class="max-w-5xl">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-slate-900">Engagement Models</h2>
+          <div class="mt-8 grid md:grid-cols-3 gap-6">
+            <div class="paper border divider rounded-xl p-6 lift">
+              <h3 class="font-semibold text-slate-900">Consultation</h3>
+              <p class="text-sm text-slate-600 mt-2">Fixed fee for first meeting and document review outline.</p>
+            </div>
+            <div class="paper border divider rounded-xl p-6 lift">
+              <h3 class="font-semibold text-slate-900">Drafting & Notices</h3>
+              <p class="text-sm text-slate-600 mt-2">Stage-wise for drafts, replies, and filings.</p>
+            </div>
+            <div class="paper border divider rounded-xl p-6 lift">
+              <h3 class="font-semibold text-slate-900">Appearances</h3>
+              <p class="text-sm text-slate-600 mt-2">Per-appearance or lump-sum depending on forum & complexity.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Credentials (two-column list) -->
+      <section id="credentials" class="px-4 sm:px-6 lg:px-10 py-12 border-t divider">
+        <div class="max-w-5xl">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-slate-900">Credentials</h2>
+          <div class="mt-8 grid md:grid-cols-2 gap-8">
+            <ul class="space-y-3 text-slate-700">
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-brand"></span> Appearances across Pune & Mumbai jurisdictions</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-brand"></span> Member, Pune Bar Association</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-brand"></span> Contracting for startups & SMBs</li>
+            </ul>
+            <div class="paper border divider rounded-xl p-6">
+              <dl class="grid grid-cols-2 gap-y-3 text-sm">
+                <dt class="text-slate-500">Bar Council Reg.</dt><dd class="font-medium text-slate-900">MAH/XXXX/20XX</dd>
+                <dt class="text-slate-500">GSTIN</dt><dd class="font-medium text-slate-900">27XXXXXXXXXXZ5</dd>
+                <dt class="text-slate-500">Languages</dt><dd class="font-medium text-slate-900">English • Marathi • Hindi</dd>
+                <dt class="text-slate-500">Coverage</dt><dd class="font-medium text-slate-900">Pune • Mumbai • PAN-India e-filings</dd>
+              </dl>
+              <p class="text-xs text-slate-500 mt-4">* Replace placeholders per Bar Council of India rules.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Insights (mini blog) -->
+      <section id="insights" class="px-4 sm:px-6 lg:px-10 py-12 border-t divider">
+        <div class="max-w-5xl">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-slate-900">Insights</h2>
+          <div class="mt-8 grid md:grid-cols-3 gap-6">
+            <article class="paper border divider rounded-xl p-5 lift">
+              <h3 class="font-semibold text-slate-900">What to check before signing a vendor MSA</h3>
+              <p class="text-sm text-slate-600 mt-1">Liability caps, termination, IP, and data handling—four clauses to read twice.</p>
+            </article>
+            <article class="paper border divider rounded-xl p-5 lift">
+              <h3 class="font-semibold text-slate-900">Cheque bounce notices: the 30-day clock</h3>
+              <p class="text-sm text-slate-600 mt-1">Why timelines matter and what to attach for stronger complaints.</p>
+            </article>
+            <article class="paper border divider rounded-xl p-5 lift">
+              <h3 class="font-semibold text-slate-900">Property due diligence checklist</h3>
+              <p class="text-sm text-slate-600 mt-1">Title flow, encumbrances, approved plans, and builder track record.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact + Map + Form -->
+      <section id="contact" class="px-4 sm:px-6 lg:px-10 py-12 border-t divider">
+        <div class="max-w-6xl">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-slate-900">Contact</h2>
+          <div class="mt-8 grid lg:grid-cols-5 gap-8">
+            <!-- Tall Map -->
+            <div class="lg:col-span-2 paper border divider rounded-xl overflow-hidden">
+              <div class="aspect-[3/4] sm:aspect-[4/5]">
+                <iframe
+                  class="w-full h-full"
+                  style="border:0"
+                  loading="lazy"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.294016432808!2d73.841!3d18.5203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06b1f2c0b6f%3A0x8c1a6a0b8f9d3c9!2sFergusson%20College%20Road%2C%20Pune!5e0!3m2!1sen!2sin!4v1691599999999">
+                </iframe>
+              </div>
+            </div>
+
+            <!-- Address & channels -->
+            <!-- <div class="lg:col-span-1 space-y-4">
+              <div>
+                <div class="text-sm text-slate-500">Office</div>
+                <div class="font-medium text-slate-900">2nd Floor, ABC Chambers, FC Road, Pune 411004</div>
+              </div>
+              <div>
+                <div class="text-sm text-slate-500">Email</div>
+                <a href="mailto:advjohndoe@gmail.com" class="font-medium text-slate-900 hover:underline break-words">advjohndoe@gmail.com</a>
+              </div>
+              <div>
+                <div class="text-sm text-slate-500">Phone</div>
+                <a href="tel:+919800098000" class="font-medium text-slate-900 hover:underline">+91 98000 98000</a>
+              </div>
+              <div>
+                <div class="text-sm text-slate-500">Hours</div>
+                <div class="font-medium text-slate-900">Mon–Sat, 10:30–18:30</div>
+              </div>
+            </div> -->
+
+            <!-- Consultation Form (static email via Web3Forms) -->
+            <div class="lg:col-span-3 paper border divider rounded-xl p-6">
+              <h3 class="font-semibold text-slate-900">Request a Consultation</h3>
+              <p class="text-sm text-slate-600 mt-1">Share basic details (no confidential info). You’ll receive a callback.</p>
+
+              <form id="consultForm" class="mt-4 grid gap-4" novalidate>
+                <!-- Web3Forms (replace with your key) -->
+                <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY"/>
+                <input type="hidden" name="subject" value="New Consultation Request — Website"/>
+                <input type="checkbox" name="botcheck" class="hidden" style="display:none!important" tabindex="-1" autocomplete="off">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <input required type="text" name="name" placeholder="Your name" class="w-full rounded-lg border divider px-4 py-3 focus:outline-none focus:ring-2 ring-brand"/>
+                  <input required type="tel" inputmode="tel" name="phone" placeholder="Phone number" class="w-full rounded-lg border divider px-4 py-3 focus:outline-none focus:ring-2 ring-brand"/>
+                </div>
+                <input required type="email" name="email" placeholder="Email address" class="w-full rounded-lg border divider px-4 py-3 focus:outline-none focus:ring-2 ring-brand"/>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs text-slate-500 mb-1">Preferred Date</label>
+                    <input required type="date" name="date" class="w-full rounded-lg border divider px-4 py-3 focus:outline-none focus:ring-2 ring-brand"/>
+                  </div>
+                  <div>
+                    <label class="block text-xs text-slate-500 mb-1">Preferred Time</label>
+                    <input required type="time" name="time" class="w-full rounded-lg border divider px-4 py-3 focus:outline-none focus:ring-2 ring-brand"/>
+                  </div>
+                </div>
+
+                <textarea required name="message" rows="4" placeholder="Brief about your matter" class="w-full rounded-lg border divider px-4 py-3 focus:outline-none focus:ring-2 ring-brand"></textarea>
+
+                <button id="consultSubmit" type="submit" class="w-full bg-brand text-white px-4 py-3 rounded-lg lift">
+                  Submit Enquiry
+                </button>
+                <p id="formStatus" class="text-sm text-slate-600 hidden" aria-live="polite"></p>
+
+                <p class="text-xs text-slate-500">Submitting this form does not create a lawyer-client relationship. Data is sent via a third-party form service.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="px-4 sm:px-6 lg:px-10 py-10 border-t divider">
+        <div class="max-w-6xl">
+          <div class="grid sm:grid-cols-3 gap-8">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-white font-semibold">PK</span>
+              <div>
+                <div class="font-semibold text-slate-900">Adv. John Doe</div>
+                <div class="text-xs text-slate-500">Practical, ethical, time-bound legal solutions.</div>
+              </div>
+            </div>
+            <div>
+              <div class="text-sm text-slate-500">Office</div>
+              <p class="text-sm text-slate-700 mt-1">
+                2nd Floor, ABC Chambers, FC Road, Pune 411004<br>
+                <a class="hover:underline" href="mailto:advjohndoe@gmail.com">advjohndoe@gmail.com</a><br>
+                <a class="hover:underline" href="tel:+919800098000">+91 98000 98000</a>
+              </p>
+            </div>
+            <div class="text-sm text-slate-500">
+              Note: Template site. Please ensure compliance with Bar Council of India rules before publishing.
+            </div>
+          </div>
+          <div class="mt-8 pt-6 border-t divider text-sm text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© <span id="y"></span> Adv. Prasad Kulkarni. All rights reserved.</p>
+            <div class="flex items-center gap-4">
+              <a href="#home" class="hover:text-slate-700">Home</a>
+              <a href="#matters" class="hover:text-slate-700">Matters</a>
+              <a href="#contact" class="hover:text-slate-700">Contact</a>
+              <a href="#" class="hover:text-slate-700">Privacy</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile sticky call bubble -->
+        <a href="tel:+919800098000"
+           class="fixed md:hidden bottom-20 right-4 rounded-full bg-brand text-white px-5 py-3 lift">
+          Call Now
+        </a>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Tiny scripts -->
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+  <script>
+    (function(){
+      const form=document.getElementById('consultForm');
+      if(!form) return;
+      const status=document.getElementById('formStatus');
+      const btn=document.getElementById('consultSubmit');
+      form.addEventListener('submit', async (e)=>{
+        e.preventDefault();
+        if(!form.reportValidity()) return;
+        if(btn){ btn.disabled=true; btn.textContent='Sending...'; }
+        if(status){ status.classList.remove('hidden'); status.textContent='Submitting...'; }
+        try{
+          const res=await fetch('https://api.web3forms.com/submit',{method:'POST', body:new FormData(form)});
+          const data=await res.json();
+          if(data.success){ if(status){ status.textContent='Thank you! Your request has been sent.'; status.className='text-sm text-green-700'; } form.reset(); }
+          else { if(status){ status.textContent='Sorry, something went wrong. Please try again or call +91 98000 98000.'; status.className='text-sm text-red-700'; } }
+        }catch(_){
+          if(status){ status.textContent='Network error. Please try again or call +91 98000 98000.'; status.className='text-sm text-red-700'; }
+        }finally{
+          if(btn){ btn.disabled=false; btn.textContent='Submit Enquiry'; }
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
